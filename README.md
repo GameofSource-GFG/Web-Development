@@ -8,8 +8,8 @@ The event is going to witness the participation from students of over 100+ colle
 Participants will be given an issue as a feature to develop in the web development template. Issues will be opened in github repository at a time specified earlier in the slack channel. Once going through that issue participants must request the issue to be assigned to them. Once assigned participants must solve that issue (develop the feature mentioned) and make a pull request to the site. Our event handlers will go through the pull request thoroughly and can merge once satisfied all the rules mentioned in <a href="#">contributors.md</a> file.
 
 <h4>Important Resources</h4>
-How to fork a repository
-How to make a Pull request
+Guide to Fork A repository : <a href="https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo">Click Here</a>
+Guide to make a Pull request: <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests">Click Here</a>
 
 <h4>Contact Us</h4>
 All the participant queries will be resolved in slack channel.
