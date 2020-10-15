@@ -1,0 +1,27 @@
+{
+  "name": "GameOfSource-GFG",
+  "version": "1.0.0",
+  "description": "Welcome to GameofSource Web Development Arena. <h3>About Event</h3> Game of Source is a Open-Source Contribution event being organized by GeeksForGeeks and its student chapters across PAN India.  The event is going to witness the participation from students of over 100+ colleges in various cities and will provide a plethora of opportunities to budding developers to directly learn from the domain experts and try their hands on practical execution of events in this celebration of learning.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameofSource-GFG/Web-Development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GameofSource-GFG/Web-Development/issues"
+  },
+  "homepage": "https://github.com/GameofSource-GFG/Web-Development#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5"
+  }
+}
