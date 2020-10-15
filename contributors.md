@@ -15,7 +15,7 @@ Contributors and maintainers must maintain a postive attire which includes:
 * Focusing on what is best for the community
 * Showing empathy towards other community members
 
-<h4>Unacceptable Behaviour</h4>:
+<h4>Unacceptable Behaviour:</h4>
 
 * The use of sexualized language or imagery and unwelcome sexual attention or
  advances
