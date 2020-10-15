@@ -4,7 +4,7 @@
 
 We as contributors and maintainers pledge to making participation in the project and our community a harassment-free and hassle-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-##Game of Source Standards
+## Game of Source Standards
 
 <h4>Acceptable Behaviour</h4>
 Contributors and maintainers must maintain a postive attire which includes:
