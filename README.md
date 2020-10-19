@@ -1,4 +1,23 @@
-# GeeksforGeeks Student Chapters
+<p align="center">
+<img src="https://pixan198.github.io/images/gfgsc-logo.svg" width="200px" height="200px">
+</p>
+
+<p align="center">
+<a href="https://github.com/GameofSource-GFG/Web-Development/blob/master/LICENSE" target="_blank">
+  <img src="https://img.shields.io/github/license/GameofSource-GFG/Web-Development?style=for-the-badge" />
+  </a> 
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> 
+  <a href="https://github.com/GameofSource-GFG/Web-Development/pulls" target="_blank">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/GameofSource-GFG/Web-Development?style=for-the-badge" />
+  </a> 
+  <a href="https://github.com/GameofSource-GFG/Web-Development/issues" target="_blank">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/GameofSource-GFG/Web-Development?style=for-the-badge" />
+  </a> 
+  <a href="https://github.com/GameofSource-GFG/Web-Development" target="_blank">
+    <img alt="Github All Contributors" src="https://img.shields.io/github/contributors/GameofSource-GFG/Web-Development?style=for-the-badge" />
+  </a>
+  <img alt="Beginner Friendly" src="https://img.shields.io/badge/Beginner-Friendly-orange?style=for-the-badge" />
+</p>
 
 Welcome to GameofSource Web Development Arena. 
 
