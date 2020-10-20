@@ -113,11 +113,28 @@ $ npm install
 $ yarn
 ```
 
+Move inside the client folder and install the dependencies also using: 
+
+```sh
+$ npm install
+# OR
+$ yarn
+```
+
 copy the .sample.env file as .env for your local testing
 
 ```sh
 $ cp .sample.env .env
 ```
+
+To start your app both server and client use:
+
+```sh
+$ npm run dev
+# OR
+$ yarn dev
+```
+
 
 </details>
 
