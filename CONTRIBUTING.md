@@ -7,6 +7,7 @@
 - In case you want to submit an improvement to an existing feature or section, we prefer that you notify us in suggested medium of contact, describing in details your improvement. This will help others to analyze your contribution.
 - All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
 - If you have no idea what are [issues](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-issues) or [PR](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests)s, please do refer to the links.
+- U need to make a branch and submit the pr always. Don't send pull requests to master branch. Create a branch as <USERNAME>/<ISSUE_NUMBER> and make a request.
 
 **Make sure your code works before submitting it :D**
 
