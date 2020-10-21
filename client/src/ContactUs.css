@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-weight: 500;
+    padding-bottom:0px;
+    font-size: 20px;
+}
+ .App {
+     max-width: 500px;
+     margin: 0 auto;
+     padding-top: 0px;
+     text-align: left;
+
+     
+}
+form{
+    margin-bottom:0px; 
+    margin-top: 0px;
+    color: #485436;
+    font-weight: 500px;
+}
+ p {
+     text-align: center;
+     font-weight: 700;
+     font-size: 60px;
+     font-family: 'lobster';
+     padding-bottom: 0px;
+     
+     color:#80C80C;
+
+}
+ input[type=text],input[type=email], select, textarea {
+     width: 100%;
+     padding: 13px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+     font-weight: 0;
+     background-color:# ;
+
+}
+ input[type=submit] {
+     background-color: #71AC15 ;
+     color: white;
+     font-size: 20px;
+     padding-top: 40px;
+     padding: 10px 30px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     align-self: center;
+     width: 36vw;
+     font-weight: 600;
+
+}
+ input[type=submit]:hover {
+     background-color: #485436 ;
+}
+ .container {
+      border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 40px;
+     justify-content: center;
+     padding-bottom: 0px;
+    }
+ 
