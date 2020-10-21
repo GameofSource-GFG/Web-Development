@@ -2,12 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import "./committee.css";
-import Label from "./component/CommitteeMembers/Label";
+import Committee from "./component/CommitteeMembers/Committee";
 
 function App() {
   return (
     <div className="App">
-      <Label></Label>
+      <Committee></Committee>
     </div>
   );
 }
