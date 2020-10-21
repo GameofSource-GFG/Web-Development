@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
             <h1 style={{textAlign:'center'}}>Timeline for <span style={{color:'green'}}>GeeksforGeeks</span> Chapter</h1>
-//
     <div className="timeline">
         <ul>
             <li>
