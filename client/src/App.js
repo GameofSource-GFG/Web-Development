@@ -1,16 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import HomePage from './screens/Homepage'
 
-function App() {
+
+
+function App()
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>GameOfSource</h1>
-      </header>
+    <div>
+      <HomePage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
