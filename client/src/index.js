@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import AboutUs from './AboutUs';
-import './Aboutus.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
