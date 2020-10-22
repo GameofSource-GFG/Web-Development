@@ -9,7 +9,7 @@ body{
   position: relative;
   margin: 50px auto;
   padding: 40px 0;
-  width: 1000px;  
+  max-width: 1000px;  
   box-sizing: border-box;
 }
 .timeline:before
@@ -118,4 +118,102 @@ body{
     border-radius: 18px;
     box-shadow: 0 0 0 3px rgb(0, 153, 0, 0.3);
 
+}
+
+
+/* ******************Mobile View****************** */
+
+@media screen and (max-width:500px){
+    .timeline:before
+{
+    content: '';
+    position: absolute;
+    left: 31px;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+/* Pointer Section*/
+.timeline ul li:nth-child(odd)::before
+{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 16.5px;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 153, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(0, 153, 0, 0.2);
+    z-index: 1;
+}
+
+.timeline ul li:nth-child(even)::before
+{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 16.5px;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 153, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(0, 153, 0, 0.2);
+    z-index: 1;
+}
+
+/* Time Section*/
+.timeline ul li:nth-child(odd) .time
+{
+    
+    top: 12px;
+    right: 115px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgb(0, 153, 0);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgb(0, 153, 0, 0.3);
+
+}
+
+.timeline ul li:nth-child(even) .time
+{
+    
+    top: 12px;
+    left: 50px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgb(0, 153, 0);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgb(0, 153, 0, 0.3);
+
+}
+
+
+    /*Content*/
+.timeline ul li h3
+{
+    margin: 45px 0 0 10px;
+    padding: 0px;
+    font-weight: 600;
+    color: rgb(0, 153, 0);
+}
+
+    .timeline ul li:nth-child(odd){
+        margin-left: 10px;
+        width: 300px;
+        float: left;
+        text-align: left;
+        clear: both;
+    }
+    .timeline ul li:nth-child(even){
+        margin-left: 10px;
+        width: 300px;
+        float: left;
+        text-align: left;
+        clear: both;
+    }
 }
