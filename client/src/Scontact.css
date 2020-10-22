@@ -10,12 +10,17 @@ body {
   background-image:url(https://furniture011.com/wp-content/uploads/2020/02/white-trianglify.jpg);
   padding-top: 0px;
   background-size: cover;
+       max-width: 500px;
+     margin: 0 auto;
+     padding-top: 10px;
+     text-align: left;
+
 }
 form{
     margin-bottom:0px; 
     margin-top: 0px;
-    color: #48546;
-    font-weight: 500px;
+    color: #485436;
+    
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -24,6 +29,6 @@ code {
  
 }
 p{
-margin-bottom:30px; 
+margin-bottom:15px; 
      margin-top: 20px;   
 }
