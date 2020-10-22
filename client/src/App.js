@@ -1,15 +1,18 @@
 import React from 'react';
+// eslint-disable-next-line
 import logo from './logo.svg';
 import './App.css';
+import ContactUs from "./component/Contact-Us/ContactUs";
+import "./ContactUs.css";
+import "./Scontact.css";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>GameOfSource</h1>
-      </header>
-    </div>
+      <ContactUs/>
+       </div>
   );
 }
 
