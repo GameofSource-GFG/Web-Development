@@ -18,7 +18,9 @@ const Container = styled.div`
         font-size: 1.5rem;
         font-weight: 700;
         color: green;
-
+        h1{
+            margin: 0;
+        }
     }
     .right{
         width: 40%;
@@ -43,6 +45,7 @@ const Container = styled.div`
         }
     }
     @media (max-width: 768px){
+        width: 100%;
         flex-direction: column;
         .left{
             width: 100%;

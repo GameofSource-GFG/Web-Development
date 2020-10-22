@@ -7,7 +7,8 @@ const Container = styled.div`
     background-image: radial-gradient(yellow 40%, orange);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 10% 0 10%;
+    padding: 0 2rem 0 2rem;
+    box-sizing: border-box;
     .left{
         display: flex;
         flex-direction: column;
@@ -15,9 +16,11 @@ const Container = styled.div`
         align-items: flex-start;
         h4{
             font-weight: bolder;
+            margin: 0;
         }
         ul>li{
             list-style: circle;
+            text-align: left;
             a{
                 text-decoration: none;
                 color: black;
@@ -32,6 +35,7 @@ const Container = styled.div`
         h4{
             color: green;
             font-weight: bolder;
+            margin: 0;
         }
         small{
             color: green;

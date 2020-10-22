@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-//importing aos library
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+
 
 const Container = styled.div`
     width: 80%;
@@ -11,6 +9,7 @@ const Container = styled.div`
     margin: .2rem auto;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    box-sizing: border-box;
     img{
         max-width: 100%;
         height: 100%;
@@ -18,6 +17,7 @@ const Container = styled.div`
         display: block;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 2rem;
     }
     .text{
         width: 100%;
@@ -33,8 +33,10 @@ const Container = styled.div`
         }
     }
     @media(max-width: 768px) {
+        width: 100%;
         height: 40vh;
         margin: 1rem auto;
+        grid-template-columns: 1fr 2fr;
         .text{
             h1{
                 font-size: 1.2rem;
@@ -44,18 +46,16 @@ const Container = styled.div`
             }
         }
         img{
-            max-width: auto;
-            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
         }
     }
 `
 
 function BodyCard({img, heading, para, id}) {
-    AOS.init({
-        duration: 1000,
-    })
+    
     return (
-        <Container data-aos={(id % 2 === 0) ? "fade-up-right" : "fade-up-left"}>
+        <Container >
             <img src={img} alt="womenwithlaptop" style={{order: (id % 2 === 0) ? 2 : 0}} width="500px" height="150px"></img>
             <div className="text">
                 <h1>{heading}</h1>
