@@ -1,12 +1,9 @@
 import React from 'react';
 import './App.css';
-import "./committee.css";
-import Committee from "./component/CommitteeMembers/committee";
 
 function App() {
   return (
     <div className="App">
-      <Committee></Committee>
     </div>
   );
 }

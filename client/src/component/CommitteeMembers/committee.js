@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MemberBlock from "./MemberBlock"
+import MemberBlock from "./MemberBlock";
+import "../../committee.css";
 
 class Committee extends Component {
   render() {

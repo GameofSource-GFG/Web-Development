@@ -14,11 +14,11 @@ class MemberBlock extends Component {
       </div>
       <div class="flip-card-back">
       <h1 className="details">Details</h1> 
-      <p>Profession</p> 
-      <p>No. of blogs</p>
-      <p>Native of</p>
-      <p>Social Media links</p>
-      <p>Other important details</p>
+      <p className="para">Profession</p> 
+      <p className="para">No. of blogs</p>
+      <p className="para">Native of</p>
+      <p className="para">Social Media links</p>
+      <p className="para">Other important details</p>
     </div>
       </div></div>
       

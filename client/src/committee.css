@@ -30,7 +30,7 @@
 
 .flip-card-front {
   border-radius: 6vh;
-  background-color: #45995a3f;
+  background-color: #bbc5bc;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   border-style: groove;
@@ -38,7 +38,7 @@
 }
 
 .flip-card-back {
-  background-color: #03a25d;
+  background-color: #2f8d46;
   color: white;
   border-radius: 6vh;
   font-family: cursive;
@@ -54,13 +54,14 @@ body {
   color: #111;
   background-color: #ffffff;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .container1 {
   padding: 0 !important;
   height: 60vh;
   border-radius: 6vh;
-  background-color: #2f8d4670;
+  background-color: #dcdcdc;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   border-style: groove;
@@ -79,6 +80,7 @@ body {
   position: relative;
   top: 6%;
   font-weight: 500;
+  color: #3c6145;
 }
 .position {
   font-size: 120%;
@@ -86,16 +88,25 @@ body {
   position: relative;
   top: 10%;
   left: 12%;
+  color: #3c6145;
 }
 
 .mainHeading,
-.Heading,
-.details {
+.Heading {
   font-family: "Sofia";
   font-style: bold;
-  color: #241117;
+  color: #2f8d46;
   font-size: 200%;
   font-weight: 2000;
+  text-align: center;
+  margin: 1% 0 3%;
+}
+.details {
+  color: #085a1b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic, bold;
+  font-size: 200%;
+  font-weight: 3000;
   text-align: center;
   margin: 1% 0 3%;
 }
@@ -103,12 +114,12 @@ body {
 .mainHeading {
   font-size: 500%;
   margin-bottom: 4%;
-  background-color: #2f8d46;
+  background-color: #dcdcdc;
   min-width: 103%;
-  border-bottom: 3px dashed #2bc752;
+  border-bottom: 3px dashed #2f8d46;
 }
 .photo {
-  border: double 10px #2f8d46;
+  border: double 10px #ffffff;
   padding: 0 !important;
   margin-left: 7%;
   position: relative;
@@ -118,11 +129,12 @@ body {
 .Heading {
   font-size: 3rem;
   margin-bottom: -1%;
-  background-color: #2f8d46;
+  background-color: #dcdcdc;
   background-size: cover;
   padding: 0 !important;
   min-width: 103%;
-  border: 3px dashed #2bc752;
+  border: 3px dashed #2f8d46;
+  border-bottom: none;
 }
 @media screen and (max-width: 768px) {
   .Nopadding {
