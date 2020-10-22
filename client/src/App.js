@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import ContactUs from "./component/Contact-Us/ContactUs";
 import "./ContactUs.css";
-import "./Scontact.css";
+
 
 
 
