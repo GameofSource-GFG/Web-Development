@@ -2,12 +2,13 @@
     box-sizing: border-box;
     font-weight: 500;
     padding-bottom:0px;
-    font-size: 20px;
+    font-size: 15px;
+    padding:5px;
 }
- .App {
+ .field {
      max-width: 500px;
      margin: 0 auto;
-     padding-top: 0px;
+     padding-top: 10px;
      text-align: left;
 
      
@@ -16,11 +17,11 @@ form{
     margin-bottom:0px; 
     margin-top: 0px;
     color: #485436;
-    font-weight: 500px;
+  
 }
  p {
      text-align: center;
-     font-weight: 700;
+     font-weight: 600;
      font-size: 60px;
      font-family: 'lobster';
      padding-bottom: 0px;
@@ -68,4 +69,4 @@ form{
      justify-content: center;
      padding-bottom: 0px;
     }
- 
+
