@@ -3,10 +3,10 @@ import React, { Component} from 'react';
 class ContactUs extends Component{
 render() {
   return (
-    <div className="App">
+    <div className="field">
     <p>Contact Us</p>
     <div >
-    <form >
+    <form>
     <label>Name </label>
     <input type="text" id="fname" name="yName" placeholder="Your name.."/>
     <label >Contact no.</label>
