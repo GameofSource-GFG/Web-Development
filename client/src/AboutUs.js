@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
+import './Aboutus.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faComment, faLightbulb, faProjectDiagram, faTrophy } from '@fortawesome/free-solid-svg-icons'
 
