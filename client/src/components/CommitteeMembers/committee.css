@@ -48,14 +48,14 @@
   border-style: groove;
   transform: rotateY(180deg);
 }
-body {
+/* body {
   margin: 0 auto;
   font-family: "Source Sans Pro", sans-serif;
   color: #111;
   background-color: #ffffff;
   width: 100%;
   overflow-x: hidden;
-}
+} */
 
 .container1 {
   padding: 0 !important;
@@ -200,5 +200,30 @@ body {
   }
   .photo {
     height: 20vh;
+  }
+}
+
+/*
+-----------------------------------------------------
+Possibe answer but isn't working
+-----------------------------------------------------
+*/
+.row{
+  margin:0;
+}
+.col-12{
+  padding: 0;
+}
+.row-1, .row-2{
+  margin-left: 0 !important;
+}
+@media screen and (max-width: 768px){
+.row1, .row2 {
+  margin-left: 0 !important;
+}
+}
+@media screen and (max-width: 575px){
+  .row1, .row2 {
+      margin-left: 0 !important;
   }
 }
