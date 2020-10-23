@@ -8,7 +8,7 @@
 - All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
 - If you have no idea what are [issues](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-issues) or [PR](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests)s, please do refer to the links.
 - U need to make a branch and submit the pr always. Don't send pull requests to master branch. Create a branch as <GIT_USERNAME>/<ISSUE_NUMBER> and make a request.
-
+- Issues are of three kinds easy, medium and hard. 5 for easy, 10 for medium and 15 for hard level issues. Participants with high score will be winner
 **Make sure your code works before submitting it :D**
 
 <details>
@@ -24,7 +24,6 @@ You can get your own fork/copy of this project by using the <kbd>Fork</kbd> butt
  ![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
 ### Clone it
-
 You need to clone (download) it to local machine using
 
 ```sh
