@@ -23,9 +23,9 @@ render() {
 
     <label >Your Message</label>
     <textarea id="subject" name="subject" placeholder="Write something.." className="msg"></textarea>
-    <div className="buttonholder">
+    
     <input type="submit" value="Submit" className="sub" />
-    </div>
+    
     </form>
     </div>
     </div>
