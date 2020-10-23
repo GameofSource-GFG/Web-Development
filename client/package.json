@@ -19,7 +19,6 @@
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "styled-components": "^5.2.0"
-   
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,4 +42,3 @@
     ]
   }
 }
-
