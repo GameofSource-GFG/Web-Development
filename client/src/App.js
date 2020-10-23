@@ -1,17 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Commiittee from "./components/CommitteeMembers/committee";
+import Homepage from "./components/Homepage/Homepage";
+import Timeline from "./components/Timeline/timeline";
+import ContactUs from "./components/Contact-Us/ContactUs";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>GameOfSource</h1>
-      </header>
-    </div>
+    <>
+      <Homepage />
+    </>
   );
 }
-
 export default App;
