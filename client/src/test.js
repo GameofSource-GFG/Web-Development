@@ -6,7 +6,7 @@ class App extends Component {
 
     componentDidMount() {
         this.renderMap()
-        // this.getVenues()
+        this.getVenues()
       }
 
     renderMap = () => {
@@ -14,38 +14,32 @@ class App extends Component {
         window.initMap = this.initMap
       }
 
-      // getVenues = () => {
-      //   const endPoint = "https://api.foursquare.com/v2/venues/explore?"
-      //   const parameters = {
-      //     client_id: "PMHC2WA1VCBHVYOPPSJ0QSBYTLRF4PNJ04OWVWV0PZJ0QFIR",
-      //     client_secret: "CULSZZ44YAEBOWBFGPB4BF5ISRXXSNYR0EE3JV3CNE2ZWHV0",
-      //     query: "Campus",
-      //     near: "Chennai",
-      //     v: "20182507"
-      //   }
+      getVenues = () => {
+        const endPoint = "https://api.foursquare.com/v2/venues/explore?"
+        const parameters = {
+          client_id: "PMHC2WA1VCBHVYOPPSJ0QSBYTLRF4PNJ04OWVWV0PZJ0QFIR",
+          client_secret: "CULSZZ44YAEBOWBFGPB4BF5ISRXXSNYR0EE3JV3CNE2ZWHV0",
+          query: "Campus",
+          near: "Chennai",
+          v: "20182507"
+        }
       
 
-      // axios.get(endPoint + new URLSearchParams(parameters))
-      // .then(response => {
-      //     console.log(response.data.response.groups[0].items)
-      // })
-      // .catch(error => {
-      //   console.log("ERROR!! " + error)
-      // }) 
+      axios.get(endPoint + new URLSearchParams(parameters))
+      .then(response => {
+          console.log(response.data.response.groups[0].items)
+      })
+      .catch(error => {
+        console.log("ERROR!! " + error)
+      }) 
 
     initMap = () => {
         var map = new window.google.maps.Map(document.getElementById('map'), {
             center: {lat: 12.8231, lng: 80.0442},
             zoom: 8
           })
-
-          var marker = new window.google.maps.Marker({
-            position: {lat: 12.8231, lng: 80.0442},
-           map:map,
-           title: 'GFG Student Chapter'
-          })
-        
-        }
+    }
+  }
     render() {
         return (
           <main>
