@@ -6,7 +6,7 @@ import  {Facebook, YouTube, Instagram, GitHub, Twitter, LinkedIn}  from '@materi
 const Container = styled.div`
     width: 100%;
     height: 8vh;
-    background-color: #f0f0f0;
+    background-color: #d8d8d8;
     div{
         width: 40%;
         height: 100%;
@@ -26,7 +26,7 @@ const Container = styled.div`
     }
     @media(max-width: 768px){
         font-size: .7rem;
-        height: 5vh;
+        height: 6vh;
         div{
             width: 85%;
         }
