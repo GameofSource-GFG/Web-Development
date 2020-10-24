@@ -8,6 +8,7 @@ import Timeline from "./components/Timeline/timeline";
 import ContactUs from "./components/Contact-Us/ContactUs";
 import SocialMediaHandles from './components/SocialMediaHandles'
 
+
 function App() {
   return (
     <>
