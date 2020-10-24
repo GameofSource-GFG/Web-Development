@@ -1,11 +1,14 @@
 import React from 'react'
-import { TextField, Grid, makeStyles, Container, Typography, Button, CssBaseline } from '@material-ui/core'
-import {Link, useHistory} from "react-router-dom"
+import { TextField, Grid, makeStyles, Container, Button, CssBaseline } from '@material-ui/core'
 import {useFormik} from 'formik'
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: "90vh",
+        height: "70vh",
+        borderRadius: "2rem",
+        marginTop: "3rem",
+        paddingTop: ".3em",
+        backgroundColor: "#f8f8f8"
     },
     paper: {
         display: "flex", 
@@ -26,9 +29,19 @@ const useStyles = makeStyles((theme) => ({
     },
     link: {
         textDecoration: "none",
-        color: "blue"
+        color: "green"
     },
     logo: {
+        margin: 0,
+        color: "green",
+        display: "flex",
+        justifyContent: "Center",
+        alignItems: "center",
+        flexDirection: "column",
+    },
+    logoh1tag: {
+        color: "green",
+        margin: "0",
         fontWeight: "bolder"
     }
 
@@ -36,7 +49,6 @@ const useStyles = makeStyles((theme) => ({
 
 function LoginPage() {
     const classes = useStyles()
-    const history = useHistory()
     const formik = useFormik({
         initialValues: {
             email: "",
@@ -63,16 +75,15 @@ function LoginPage() {
         }
     })
     return (
-        <div>
-            <Container component="main" maxWidth="xs" >
+        <div >
+            <Container component="main" maxWidth="xs" className={classes.root}>
                 <CssBaseline />
                 <div className={classes.paper}>
-                    <Typography variant="h4" component="h1" className={classes.logo} >
-                        GeeksForGeeks
-                    </Typography>
-                    <Typography variant="h6" component="h1" className={classes.logo} >
-                        student Chapter
-                    </Typography>
+                    <div className={classes.logo}>
+                        <h1 className={classes.logoh1tag}>GFG</h1>
+                        <small>Student Chapter</small>
+                        <h2>Login/SignIn</h2>
+                    </div>
                     <form  className={classes.form} onSubmit={formik.handleSubmit}>
                         <TextField 
                             variant="outlined"
@@ -105,7 +116,7 @@ function LoginPage() {
                             helperText={(formik.touched && formik.errors.password) ? formik.errors.password : ""}
                         />
                         <Button
-                            color="primary"
+                            color="secondary"
                             fullWidth
                             variant="contained"
                             type="submit"
@@ -116,14 +127,14 @@ function LoginPage() {
                         </Button>
                         <Grid container >
                             <Grid item xs={12} sm={6} lg={6} >
-                                {/* <Link to="" variant="body2" color="inherit" className={classes.link}>
+                                <a href="/" variant="body2" color="inherit" className={classes.link}>
                                     Forgot password ?
-                                </Link> */}
+                                </a>
                             </Grid>
                             <Grid item xs={12} sm={6} lg={6}>
-                                {/* <Link to="/signup" variant="body2" color="primary" className={classes.link}>
+                                <a href="/" variant="body2" color="primary" className={classes.link}>
                                    Don't have an account ?
-                                </Link> */}
+                                </a>
                             </Grid>
                         </Grid>
                     </form>
