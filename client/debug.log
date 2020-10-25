@@ -1,3 +1,4 @@
-[1025/100743.703:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1025/113746.349:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
-[1025/151106.184:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+
+
+[1023/200832.507:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+

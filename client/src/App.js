@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+
 import AboutUs from "./components/AboutUs/AboutUs";
 import Commiittee from "./components/CommitteeMembers/committee";
 import Homepage from "./components/Homepage/Homepage";
@@ -13,8 +14,9 @@ function App() {
   return (
     <>
       <Homepage />
-      <SocialMediaHandles />
+
     </>
+
   );
 }
 export default App;
