@@ -63,4 +63,4 @@ class App extends Component {
         index.parentNode.insertBefore(script, index)
       }
 
-export default Map;
+export default App;
