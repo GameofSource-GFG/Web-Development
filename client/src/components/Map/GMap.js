@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './map.css'
+import './Gmap.css'
 import axios from 'axios'
 
 class App extends Component {
