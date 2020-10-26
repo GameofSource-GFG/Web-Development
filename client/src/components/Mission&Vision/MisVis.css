@@ -6,7 +6,7 @@
 }
 
 .mission-section{
-    background: url(mission.png) no-repeat left;
+    background: url("../../assets/mission.png") no-repeat left;
     background-size: 45%;
     overflow: hidden;
     padding: 76px 0;
@@ -37,7 +37,7 @@
 }
 
 .vision-section{
-    background: url(vision.png) no-repeat right;
+    background: url("../../assets/vision.png") no-repeat right;
     background-size: 55%;
     overflow: hidden;
     padding: 90px 0;
