@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Link} from 'react-router'
+import { Link } from 'react-router-dom'
 const StyledRightNav = styled.ul`
         width: 100vh;
         height: 10vh;
@@ -68,11 +68,11 @@ function RightNav({open}) {
     return (
         <div>
             <StyledRightNav open={open}>
-                <li><Link to={"client/src/components/Homepage/Homepage.jsx"}>Home</Link></li>
-                <li><Link to={"client//src/components/AboutUs/AboutUs.js"}>About Us</Link></li>
-                <li><Link to={"#"}>Events</Link></li>
-                <li><Link to={"client/src/components/Contact-Us/ContactUs.js"}>Contact us</Link></li>
-                <li><Link to={"client/src/components/CommitteeMembers/MemberBlock.js"}>Members</Link></li>
+                <li><Link to={"/Homepage"}>Home</Link></li>
+                <li><Link to={"/AboutUs"}>About Us</Link></li>
+                <li><Link to={"/Events"}>Events</Link></li>
+                <li><Link to={"/ContactUs"}>Contact us</Link></li>
+                <li><Link to={"/MemberBlock"}>Members</Link></li>
             </StyledRightNav>
         </div>
     )
