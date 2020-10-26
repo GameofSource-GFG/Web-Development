@@ -27,7 +27,7 @@ var config={
     //  Log in
     auth.signInWithEmailAndPassword(email,pass);
   })
-  
+
   function App() {
     return (
       <div className="App">
@@ -37,6 +37,6 @@ var config={
         </header>
       </div>
     );
-  }
+    }
 
   export default App;
