@@ -18,7 +18,6 @@ var config={
   // Add login event
  
   btnLogin.addEventListener('click', e=>{
-  
     // get email and pass
     const email = txtEmail.value;
     const pass = txtPassword.value;
