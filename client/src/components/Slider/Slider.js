@@ -6,7 +6,7 @@ export default function CarouselComponent() {
     return (
         <div class="carousel-wrapper">
             
-            <Carousel infiniteLoop width="700px" useKeyboardArrows autoPlay>
+            <Carousel infiniteLoop width="100%" useKeyboardArrows autoPlay>
                 <div>
                     
                     <img src="https://images.pexels.com/photos/5255412/pexels-photo-5255412.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=640&w=426" />

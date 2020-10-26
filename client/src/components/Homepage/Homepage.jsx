@@ -6,6 +6,7 @@ import HomePageBody from "./HomePageBody";
 import HomePageHeader from "./HomePageHeader";
 import HomePageFooter from "./HomePageFooter";
 
+
 const Container = styled.div``;
 
 function HomePage() {
