@@ -1,4 +1,6 @@
 import React from "react";
+
+// get Configaraion from firebase.console
 var config={
     apikey:" ",
     authDomain:" ",
@@ -16,7 +18,6 @@ var config={
   const btnLogin = document.getElementById('btnLogin');
  
   // Add login event
- 
   btnLogin.addEventListener('click', e=>{
     // get email and pass
     const email = txtEmail.value;
@@ -27,15 +28,4 @@ var config={
     auth.signInWithEmailAndPassword(email,pass);
   })
 
-  function App() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>GameOfSource</h1>
-        </header>
-      </div>
-    );
-    }
-
-  export default App;
+  export default firebase;
