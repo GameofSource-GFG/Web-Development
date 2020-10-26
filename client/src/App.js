@@ -11,7 +11,7 @@ import MisVis from "./components/Mission&Vision/MisVis";
 function App() {
   return (
     <>
-      <Homepage />
+      <MisVis />
     </>
   );
 }
