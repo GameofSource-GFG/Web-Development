@@ -7,7 +7,6 @@ import Homepage from "./components/Homepage/Homepage";
 import Timeline from "./components/Timeline/timeline";
 import ContactUs from "./components/Contact-Us/ContactUs";
 
-
 function App() {
   return (
     <>
