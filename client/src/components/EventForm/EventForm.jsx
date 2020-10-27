@@ -2,8 +2,13 @@ import React from 'react'
 import {Grid, TextField, makeStyles, Button, Typography} from '@material-ui/core'
 import styled from 'styled-components'
 import { useFormik } from 'formik'
-import { db } from './firebase.config'
+import firebase from '../firebase'
 
+
+// database variable for firestore
+var db = firebase.firestore()
+
+// styled component for container
 const Mycard = styled.div`
     width: 60%;
     background-color: #f9f9f9;
