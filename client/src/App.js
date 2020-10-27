@@ -10,8 +10,6 @@ import ContactUs from "./components/Contact-Us/ContactUs";
 function App() {
   return (
     <>
-    {/* Use this for chnging appearing position of Scroll Buttton
-     <ScrollTop showBelow={200} />  */}
       <Homepage />
     </>
   );
