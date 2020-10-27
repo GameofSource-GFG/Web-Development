@@ -5,8 +5,7 @@ import { useFormik } from 'formik'
 import firebase from '../firebase'
 
 
-// database variable for firestore
-var db = firebase.firestore()
+
 
 // styled component for container
 const Mycard = styled.div`
@@ -49,6 +48,9 @@ const useStyles = makeStyles(theme => ({
 }))
 
 function EventForm() {
+    // database variable for firestore
+    var db = firebase.firestore()
+    
     const classes = useStyles()
     const formik = useFormik({
         initialValues: {
