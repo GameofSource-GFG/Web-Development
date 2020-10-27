@@ -19,6 +19,7 @@
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "cra-template": "1.0.3",
+    "formik": "^2.2.1",
     "firebase": "^7.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
