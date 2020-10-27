@@ -1,9 +1,12 @@
 import React, { useRef } from "react";
 import { useFormik } from 'formik'
 import './ContactUs.css';
-
+import firebase from '../firebase'
 
 function ContactUs() {
+  // db variable for firestore
+  var db = firebase.firestore()
+
   // reference for message word count span
   const countRef = useRef()
 
@@ -19,7 +22,12 @@ function ContactUs() {
         console.log(e)
       },
       onSubmit: values => {
-          console.log(values)
+          db.collection("contactUsDetails")
+            .add(values)
+              .then(alert("Your message received"))
+              .catch((err) => {
+                console.log(err)
+              })
       },
       
       validate: values => {
