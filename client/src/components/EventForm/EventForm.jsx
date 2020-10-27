@@ -2,7 +2,12 @@ import React from 'react'
 import {Grid, TextField, makeStyles, Button, Typography} from '@material-ui/core'
 import styled from 'styled-components'
 import { useFormik } from 'formik'
+import firebase from '../firebase'
 
+
+
+
+// styled component for container
 const Mycard = styled.div`
     width: 60%;
     background-color: #f9f9f9;
@@ -43,6 +48,9 @@ const useStyles = makeStyles(theme => ({
 }))
 
 function EventForm() {
+    // database variable for firestore
+    var db = firebase.firestore()
+    
     const classes = useStyles()
     const formik = useFormik({
         initialValues: {
@@ -63,7 +71,14 @@ function EventForm() {
             
         },
         onSubmit: value => {
-            console.log(value)
+            db.collection("events")
+                .add(value)
+                    .then(() => {
+                        alert("Your event has saved")
+                    })
+                    .catch((err) => {
+                        console.log(err)
+                    })
         },
         validate: value => {
             let errors = {}
