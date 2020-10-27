@@ -2,6 +2,7 @@ import React from 'react'
 import {Grid, TextField, makeStyles, Button, Typography} from '@material-ui/core'
 import styled from 'styled-components'
 import { useFormik } from 'formik'
+import { db } from './firebase.config'
 
 const Mycard = styled.div`
     width: 60%;
@@ -63,7 +64,14 @@ function EventForm() {
             
         },
         onSubmit: value => {
-            console.log(value)
+            db.collection("events")
+                .add(value)
+                    .then(() => {
+                        alert("Your event has saved")
+                    })
+                    .catch((err) => {
+                        console.log(err)
+                    })
         },
         validate: value => {
             let errors = {}
