@@ -15,6 +15,7 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^4.5.3",
     "cra-template": "1.0.3",
+    "password-validator": "^5.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",

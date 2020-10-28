@@ -7735,6 +7735,11 @@
   "resolved" "https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz"
   "version" "0.1.1"
 
+"password-validator@^5.1.0":
+  "integrity" "sha512-aHWSTQKHIiorLDM1kbTKRwaO0XqKIhouVrZjE5dLw1we30TJT94AsqSIhT9qP/dpT6RDAlh4CcvvhbDY8TVrAA=="
+  "resolved" "https://registry.npmjs.org/password-validator/-/password-validator-5.1.0.tgz"
+  "version" "5.1.0"
+
 "path-browserify@0.0.1":
   "integrity" "sha512-BapA40NHICOS+USX9SN4tyhq+A2RrN/Ws5F0Z5aMHDp98Fl86lX8Oti8B7uN93L4Ifv4fHOEA+pQw87gmMO/lQ=="
   "resolved" "https://registry.npmjs.org/path-browserify/-/path-browserify-0.0.1.tgz"
