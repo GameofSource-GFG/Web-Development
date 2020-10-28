@@ -10,7 +10,7 @@ import ContactUs from "./components/Contact-Us/ContactUs";
 // import ReactGA from 'react-ga';
 
 function App() {
-// // Enter your Google Analytics tracking ID
+// // Enter your Google  Analytics tracking ID
 //   useEffect(() => {
 //     ReactGA.initialize('UA-');
 //     // For reporting page viewers 
