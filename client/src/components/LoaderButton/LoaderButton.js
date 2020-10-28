@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button} from "react-bootstrap";
 import Spinner from 'react-bootstrap/Spinner'
-import "./LoaderButton.css";
+import "./Loaderbutton.css";
 
 export default function LoaderButton({
   isLoading,
