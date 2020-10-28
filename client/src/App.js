@@ -8,13 +8,13 @@ import Homepage from "./components/Homepage/Homepage";
 import Timeline from "./components/Timeline/timeline";
 import ContactUs from "./components/Contact-Us/ContactUs";
 import SocialMediaHandles from './components/SocialMediaHandles'
-
+import MisVis from "./components/Mission&Vision/MisVis";
 
 function App() {
   return (
     <>
       <Homepage />
-
+      <MisVis />
     </>
 
   );
