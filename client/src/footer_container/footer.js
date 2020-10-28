@@ -3,6 +3,7 @@ import Footer from '../components/footerAssests/footericons/footerStyling'
 import Icon from '../components/footerAssests/footericons'
 
 // Footer Body linked the content using routing
+
 export function FooterContainer() {
     return (
         <Footer>
