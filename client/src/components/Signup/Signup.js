@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import { useHistory } from "react-router-dom";
 import {
-  HelpBlock,
   FormGroup,
   FormControl,
-  ControlLabel
+  FormLabel
 } from "react-bootstrap";
-import LoaderButton from "../components/LoaderButton";
-import { useAppContext } from "../libs/contextLib";
-import { useFormFields } from "../libs/hooksLib";
-import { onError } from "../libs/errorLib";
+import Form from "react-bootstrap/Form";
+import LoaderButton from "../LoaderButton/LoaderButton";
+import { useAppContext } from "../../libs/contextLib";
+import { useFormFields } from "../../libs/hooksLib";
+import { onError } from "../../libs/errorLib";
 import "./Signup.css";
 
 export default function Signup() {
@@ -21,7 +21,7 @@ export default function Signup() {
   });
   const history = useHistory();
   const [newUser, setNewUser] = useState(null);
-  const { userHasAuthenticated } = useAppContext();
+  //const { userHasAuthenticated } = useAppContext();
   const [isLoading, setIsLoading] = useState(false);
 
   function validateForm() {
@@ -56,14 +56,14 @@ export default function Signup() {
     return (
       <form onSubmit={handleConfirmationSubmit}>
         <FormGroup controlId="confirmationCode" bsSize="large">
-          <ControlLabel>Confirmation Code</ControlLabel>
+          <FormLabel>Confirmation Code</FormLabel>
           <FormControl
             autoFocus
             type="tel"
             onChange={handleFieldChange}
             value={fields.confirmationCode}
           />
-          <HelpBlock>Please check your email for the code.</HelpBlock>
+          <Form.Text>Please check your email for the code.</Form.Text>
         </FormGroup>
         <LoaderButton
           block
@@ -82,7 +82,7 @@ export default function Signup() {
     return (
       <form onSubmit={handleSubmit}>
         <FormGroup controlId="email" bsSize="large">
-          <ControlLabel>Email</ControlLabel>
+          <FormLabel>Email</FormLabel>
           <FormControl
             autoFocus
             type="email"
@@ -91,7 +91,7 @@ export default function Signup() {
           />
         </FormGroup>
         <FormGroup controlId="password" bsSize="large">
-          <ControlLabel>Password</ControlLabel>
+          <FormLabel>Password</FormLabel>
           <FormControl
             type="password"
             value={fields.password}
@@ -99,7 +99,7 @@ export default function Signup() {
           />
         </FormGroup>
         <FormGroup controlId="confirmPassword" bsSize="large">
-          <ControlLabel>Confirm Password</ControlLabel>
+          <FormLabel>Confirm Password</FormLabel>
           <FormControl
             type="password"
             onChange={handleFieldChange}
