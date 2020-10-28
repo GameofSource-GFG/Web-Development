@@ -15,7 +15,7 @@ export function Routes() {
             <Switch>
                 <Route exact path="/Homepage" component={Home} />
                 <Route exact path="/">
-                    <Redirect to="/Homepage" />
+                    <Redirect to="/Home" />
                 </Route>
                 <Route exact path="/AboutUs" component={AboutUs} />
                 <Route exact path="/Events" component={Events} /> 
