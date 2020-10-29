@@ -2,14 +2,14 @@ import firebase from 'firebase'
 
 // get Configaraion from firebase.console
 var config={
-    apiKey: "AIzaSyBC2o81sB1ejUFcPIpJrYgHKBviSlFJ7Gg",
-    authDomain: "social-ape-2c756.firebaseapp.com",
-    databaseURL: "https://social-ape-2c756.firebaseio.com",
-    projectId: "social-ape-2c756",
-    storageBucket: "social-ape-2c756.appspot.com",
-    messagingSenderId: "558627228305",
-    appId: "1:558627228305:web:f279bac809e20b63220d30",
-    measurementId: "G-TYX4KYTHSS"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
   
   //Initialize App Config
