@@ -6,10 +6,7 @@ import ShowOneEvent from './ShowOneEvent'
 const Container = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #f4f4f4;
-    box-sizing: border-box;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
     h1{
         text-align: center;
         color: green;
@@ -34,6 +31,8 @@ const Container = styled.div`
         }
     }
     @media(max-width: 768px) {
+        margin: 0;
+        right: 0;
         width: 100%;
         h1{
             font-size: 1.5rem;
@@ -103,7 +102,7 @@ class ShowAllEvents extends React.Component {
                                     eligiblity = {event.eligiblity}
                                     eventDis = {event.eventDis}
                                     sponsors = {event.sponsors}
-                                    theme = {event.theme}
+                                    theme = {event.eventTheme}
                                 />
                             )
                         })

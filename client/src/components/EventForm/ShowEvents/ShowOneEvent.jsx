@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     width: "100%",
+    backgroundColor: "#fafafa",
   },
   bullet: {
     display: 'inline-block',
@@ -47,63 +48,63 @@ const useStyles = makeStyles({
 });
 
 
-function ShowOneEvent(props) {
+function ShowOneEvent({eventName, startDate, endDate, address1, address2, city, state, country, zipCode, eligiblity, sponsors, theme, eventDis}) {
     const classes = useStyles()
     return (
         <Card className={classes.root}>
         <CardContent>
             <Typography className={classes.labels} >Event Name: </Typography>
             <Typography className={classes.values} gutterBottom>
-                {props.eventName}
+                {eventName}
             </Typography>
 
 
             <Typography className={classes.labels} >Event Schedule: </Typography>
             <Typography className={classes.values} component="h2">
-                {props.startDate} - {props.endDate}
+                {startDate} to {endDate}
             </Typography>
 
 
             <Typography className={classes.labels} >Event address 1: </Typography>
-            <Typography className={classes.values} color="textSecondary">
-                {props.address1}
+            <Typography className={classes.values} >
+                {address1}
             </Typography>
 
 
             <Typography className={classes.labels} >Event address 2: </Typography>
-            <Typography className={classes.values} color="textSecondary">
-                {props.address2}
+            <Typography className={classes.values} >
+                {address2}
             </Typography>
 
 
             <Typography className={classes.values}>
-                {props.city}, {props.state}, {props.country}, {props.zipCode}
+                {city}, {state}, {country}, {zipCode}
             </Typography>
 
 
 
             <Typography className={classes.labels} >Event eligibilty: </Typography>
             <Typography className={classes.values} >
-                {props.eligiblity}
+                {eligiblity}
             </Typography>
 
 
             <Typography className={classes.labels} >Event Theme: </Typography>
             <Typography className={classes.values}>
-                {props.theme}
+                {theme}
             </Typography>
 
 
 
             <Typography className={classes.labels} >Event Sponsors: </Typography>
             <Typography className={classes.values}>
-                {props.sponsors}
+                {sponsors}
             </Typography>
 
 
             <Typography className={classes.labels} >Event Discription:</Typography>
             <Typography className={classes.values} variant="body2" component="p">
-                {props.eventDis}
+                {eventDis}
             <br />
             </Typography>
             </CardContent>
