@@ -1,97 +1,103 @@
-.adder{
-     background-image:url(https://furniture011.com/wp-content/uploads/2020/02/white-trianglify.jpg);
-    padding-top: 0px;
+.adder {
+  background-image: url(https://furniture011.com/wp-content/uploads/2020/02/white-trianglify.jpg);
+  padding-top: 0px;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  background-position:center;
-background-repeat: no-repeat;
-background-color: #EFF3E8;
-
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #eff3e8;
 }
- .field {
-     max-width: 500px;
-     margin: 0 auto;
-     padding-top: 10px;
-     text-align: left;
-     padding:10px;
-
+.field {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: left;
+  padding: 10px;
   padding-top: 0px;
   background-size: cover;
-       max-width: 500px;
-     margin: 0 auto;
-     padding-top: 10px;
-     text-align: left;
-
-
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: left;
 }
-.ev{box-sizing: border-box;
-    font-weight: 600px;
-    padding-bottom:0px;
-    font-size: 15px;
-    padding:5px;
+.ev {
+  box-sizing: border-box;
+  font-weight: 600px;
+  padding-bottom: 0px;
+  font-size: 15px;
+  padding: 5px;
 }
-     
 
-.forms{
-    margin-bottom:0px; 
-    margin-top: 0px;
-    color: #485436;
-    padding: 10px;
-    font-weight: 640;
-
-  
+.forms {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #485436;
+  padding: 10px;
+  font-weight: 640;
 }
- .heading-ContactUs {
-     text-align: center;
-     font-weight: 600;
-     font-size: 60px;
-     font-family: 'lobster';
-     padding-bottom: 0px;
-     margin-bottom:15px; 
-     margin-top: 20px; 
-     color:#80C80C;
-
+.heading-ContactUs {
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+  font-family: "lobster";
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #80c80c;
 }
- .mail,.msg,.no,.name  {
-     width: 100%;
-     padding: 13px;
-     border: 1px solid #ccc;
-     border-radius: 4px;
-     box-sizing: border-box;
-     margin-top: 6px;
-     margin-bottom: 16px;
-     resize: vertical;
-     font-weight: 0;
-     background-color:# ;
-
+.mail,
+.msg,
+.no,
+.name {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 0;
+  resize: vertical;
+  font-weight: 0;
 }
- 
-     
+
 .sub {
-background-color: #71AC15 ;
-color: white;
-font-size: 20px;
-padding-top: 0px;
-padding: 10px 30px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-display: flex;
-margin:0px auto;
-font-weight: 600;
+  background-color: #71ac15;
+  color: white;
+  font-size: 20px;
+  padding-top: 0px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  margin: 0px auto;
+  font-weight: 600;
 }
 
- .sub:hover {
-     background-color: #485436 ;
+.sub:hover {
+  background-color: #485436;
 }
 
- .container {
-      border-radius: 5px;
-     background-color: #f2f2f2;
-     padding: 40px;
-     justify-content: center;
-     padding-bottom: 0px;
-    
-    }
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+
+.errorMessage {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: red;
+  display: block;
+  margin-bottom: 16px;
+}
+.successMessage {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: green;
+  display: block;
+  margin-bottom: 16px;
+}
