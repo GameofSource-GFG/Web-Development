@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { useFormik } from 'formik'
 import './ContactUs.css';
-import firebase from '../firebase'
-
+import firebase from '../firebase';
+import sendEmail from '../Email service/Email';  // In the From Section Use this function => onSubmit={sendEmail}
 function ContactUs() {
   // db variable for firestore
   var db = firebase.firestore()
@@ -73,7 +73,7 @@ function ContactUs() {
       <div className="field">
         <p className="heading-ContactUs">Contact Us</p>
         <div className="ev">
-          <form className="forms" onSubmit={formik.handleSubmit}>
+          <form className="forms" onSubmit={formik.handleSubmit}>     
             <label>Name </label>
             <input
               type="text"
