@@ -66,6 +66,7 @@ class UpcommingEvent extends React.Component {
                     const data = doc.data()
                     events.push(data)
                 })
+                // saved all the events in state
                 this.setState({
                     events : events
                 })
