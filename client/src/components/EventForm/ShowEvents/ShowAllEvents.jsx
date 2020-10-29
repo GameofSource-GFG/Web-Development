@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-import firebase from '../firebase'
-import EventCard from './EventCard'
+import firebase from '../../firebase'
+import ShowOneEvent from './ShowOneEvent'
 
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #f4f4f4;
     box-sizing: border-box;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     h1{
         text-align: center;
         color: green;
@@ -16,8 +17,8 @@ const Container = styled.div`
     .innerContainer{
         width: 80%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
         margin: 3rem auto;
         
     }
@@ -27,9 +28,9 @@ const Container = styled.div`
             font-size: 2rem;
         }
         .innerContainer{
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             margin: 3rem auto;
-            grid-gap: 1rem;            
+            grid-gap: 2rem;            
         }
     }
     @media(max-width: 768px) {
@@ -41,7 +42,7 @@ const Container = styled.div`
             width: 90%;
             grid-template-columns: 1fr;
             margin: 3rem auto;
-            grid-gap: 1rem;            
+            grid-gap: 2rem;            
         }
     }
     
@@ -49,7 +50,7 @@ const Container = styled.div`
 
 
 
-class UpcommingEvent extends React.Component {
+class ShowAllEvents extends React.Component {
     state = {
         events : null
     }
@@ -81,18 +82,28 @@ class UpcommingEvent extends React.Component {
     render() {
         return (
             <Container>
-                <h1>Upcomming events</h1>
+                <h1>Upcomming Events</h1>
                 <div className="innerContainer">
                     {
                         this.state.events &&
                         this.state.events.map((event, index) => {
                             return (
-                                <EventCard 
+                                <ShowOneEvent
                                     key = {index}
+                                    _id = {event.id}
                                     eventName = {event.eventName}
                                     startDate = {event.startDate}
+                                    endDate = {event.endDate}
+                                    address1 = {event.address1}
+                                    address2 = {event.address2}
+                                    city = {event.city}
+                                    state = {event.state}
+                                    country = {event.country}
+                                    zipCode = {event.zipCode}
                                     eligiblity = {event.eligiblity}
                                     eventDis = {event.eventDis}
+                                    sponsors = {event.sponsors}
+                                    theme = {event.theme}
                                 />
                             )
                         })
@@ -103,4 +114,4 @@ class UpcommingEvent extends React.Component {
     }
 }
 
-export default UpcommingEvent
+export default ShowAllEvents
