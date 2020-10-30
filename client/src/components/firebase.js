@@ -1,11 +1,15 @@
-import React from "react";
+import firebase from 'firebase'
 
 // get Configaraion from firebase.console
 var config={
-    apikey:" ",
-    authDomain:" ",
-    databaseURL:" ",
-    storageBucket:" ",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   };
   
   //Initialize App Config
