@@ -10,6 +10,7 @@ import ContactUs from "./components/Contact-Us/ContactUs";
 import SocialMediaHandles from './components/SocialMediaHandles'
 import MisVis from "./components/Mission&Vision/MisVis";
 
+
 function App() {
   return (
     <>
