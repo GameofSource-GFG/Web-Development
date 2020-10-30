@@ -6,11 +6,12 @@ import Commiittee from "./components/CommitteeMembers/committee";
 import Homepage from "./components/Homepage/Homepage";
 import Timeline from "./components/Timeline/timeline";
 import ContactUs from "./components/Contact-Us/ContactUs";
+import Signup from "./components/Signup/Signup";
 
 function App() {
   return (
     <>
-      <Homepage />
+      <Signup />
     </>
   );
 }
