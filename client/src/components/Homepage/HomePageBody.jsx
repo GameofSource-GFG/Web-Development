@@ -7,7 +7,7 @@ import skillImg from "../../assets/skill.png";
 import interactionImg from "../../assets/interaction.png";
 import leaderImg from "../../assets/leader.png";
 import anywhereImg from "../../assets/anywhere.png";
-
+import ScrollTop from "../ScrollToTop/ScrollTop"
 const Container = styled.div`
   width: 100%;
   margin: 0 auto;
@@ -31,6 +31,7 @@ const Container = styled.div`
 function HomePageBody() {
   return (
     <Container>
+      <ScrollTop showBelow={200} />  
       <h1>Why GeeksForGeeks Student Chapter ?</h1>
       <BodyCard
         img={networkImg}
